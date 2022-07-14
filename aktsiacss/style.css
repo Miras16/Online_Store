@@ -1,0 +1,822 @@
+div{
+    max-height: 1100px;
+  
+ }
+*::-webkit-scrollbar{
+    display: none;
+}
+.sub-menu ul{
+    width: 400px;
+    list-style: none;
+    display: none;
+}
+.sub-menu ul img{
+    float: right;
+}
+.menu-bar{
+    margin-top: -15px;
+    text-align: center;
+}
+.menu-bar ul{
+    list-style: none;
+    display: inline-flex;
+}
+.menu-bar ul li{
+    padding: 0 10px;
+    margin: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar ul li a:hover{
+    color: orange;
+}
+.sub-menu{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    height: 450px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    margin-left: -120px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    text-align: left;
+}
+.sub-sub-menu, .sub-sub-menu2,
+.sub-sub-menu3, .sub-sub-menu4,
+.sub-sub-menu5, .sub-sub-menu6,
+.sub-sub-menu7, .sub-sub-menu8,
+.sub-sub-menu9, .sub-sub-menu10,
+.sub-sub-menu11, .sub-sub-menu12{
+    display: none;
+}
+.sub-menu ul li:hover .sub-sub-menu{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 198px;
+    margin-top: -20px;
+}
+.sub-menu ul li:hover .sub-sub-menu ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu2{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 176px;
+    margin-top: -54px;
+}
+.sub-menu ul li:hover .sub-sub-menu2 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu3{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 226px;
+    margin-top: -88px;
+}
+.sub-menu ul li:hover .sub-sub-menu3 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu4{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -122px;
+}
+.sub-menu ul li:hover .sub-sub-menu4 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu5{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -156px;
+}
+.sub-menu ul li:hover .sub-sub-menu5 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu6{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -190px;
+}
+.sub-menu ul li:hover .sub-sub-menu6 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu7{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 222px;
+    margin-top: -224px;
+}
+.sub-menu ul li:hover .sub-sub-menu7 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu8{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 214px;
+    margin-top: -258px;
+}
+.sub-menu ul li:hover .sub-sub-menu8 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu9{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -292px;
+}
+.sub-menu ul li:hover .sub-sub-menu9 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu10{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 178px;
+    margin-top: -326px;
+}
+.sub-menu ul li:hover .sub-sub-menu10 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu11{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -360px;
+}
+.sub-menu ul li:hover .sub-sub-menu11 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu12{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -394px;
+}
+.sub-menu ul li:hover .sub-sub-menu12 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.main .carousel{
+    margin-left: 100px;
+    justify-content: center;
+    z-index: -1;
+    height: 500px;
+    width: 940px;
+}
+.carousel img{
+    border-radius: 20px;
+    height: 500px;
+    width: 940px;
+}
+.main{
+    display: inline-flex;
+}
+.categoria2{
+    display: inline-flex;
+    text-align: center;
+}
+.categoria2 ul{
+    display: inline-flex;
+    list-style: none;
+}
+.categoria2 ul li a{
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.categoria2 button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.categoria2 .new{
+    color: orange;
+}
+.categoria2 button:hover{
+    background-color: rgba(247, 233, 233, 0.897);
+    color: orangered;
+}
+.categoria2 .new{
+    border: 2px solid orange;
+}
+
+.row1{
+    margin-left: 50px;
+    display: inline-flex;
+}
+.card{
+    margin:10px 5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px black;
+}
+.cards1{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    top: 1px;
+    left: 148px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards1 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards1 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+
+}
+.cards2{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 196px;
+    left: 820px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards2 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards2 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+
+}
+
+.cards3{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 159px;
+    left: 148px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards3 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards3 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+}
+
+.cards4{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 357px;
+    left: 820px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards4 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards4 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+
+}
+.cards5{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 317px;
+    left: 148px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards5 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards5 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+}
+
+.cards6{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 512px;
+    left: 820px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards6 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards6 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+
+}
+
+.cards7{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 471px;
+    left: 148px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards7 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards7 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+}
+
+.cards8{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 666px;
+    left: 820px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards8 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards8 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+
+}
+.cards9{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 625px;
+    left: 148px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards9 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards9 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+}
+.cards10{
+    background-color: #f8f0ef;
+    border-radius: 8px;
+    padding: 16px;
+    height: 197px;
+    width: 637px;
+    position: relative;
+    bottom: 820px;
+    left: 820px;
+}
+.birinwi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.cards10 a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    line-height: 32px;
+    position: relative;
+    bottom: 159px;
+    left: 334px;
+    width: 261px;
+  
+}
+.cards10 p{
+    font-size: 14px;
+    position: relative;
+    
+    bottom: 145px;
+    left: 326px;
+    width: 281px;
+
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.uznat a{
+    color: #42BBF8;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 146px;
+    left: 326px;
+}
+@media (max-width:400px) {
+    .page2{
+        display: block;
+    }
+}

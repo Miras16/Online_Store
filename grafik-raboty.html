@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="midtermCss.css">
+  <link rel="stylesheet" href="aktsiacss/style.css">
+  <link rel="stylesheet" href="grafikrabotycss/grafik.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Open+Sans:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav class="container-fluid">
+    <div class="row" style="height: 30px; background-color: rgb(248, 240, 239);">
+      <div class="col-md-4">
+        <p class="text-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+          <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>Almaty
+        </p>
+      </div>
+      <div class="col-md-5" style="text-align: right;">
+        <p class="text-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg><small>Адреса магазинов</small></p>
+      </div>
+      <div class="col-md-3" style="background-color: rgb(247, 114, 96); height: 30px;">
+        <p class="text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg><small>Горячая линия с 08:00 до 00:00 <b>1717</b></small> 
+        </p>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-default" style="height: 60px;">
+    <div class="container-fluid">
+      <div class="col-md-3" style="margin-top: -20px;">
+        <div class="navbar-header">
+        <img src="logoTehno.png" class="float-start" style="margin-left: 70px ;width: 250px; height: 100px;">
+        </div>
+      </div> 
+      <div class="col-md-6"style="margin-top: -20px;">
+        <p class="text-justify">
+          <div class="input-group" style="color: orange; display: flex; font-size: 30px;">
+          <div class="form-outline" >
+            <input type="search" id="form1" class="form-control" placeholder="Я хочу найти.." style=" margin-left: 60px;border: 2px solid orange; width:500px; padding: 15px 20px; font-size: 15px; border-top-left-radius: 30px; border-bottom-left-radius: 30px;" />
+          </div>
+          <button type="button" class="btn btn-primary" style="border: 0 solid orange ; padding: 10px 20px; font-size: 15px; background-color: orange; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+        </div>
+      </p>       
+      </div>
+      <div class="col-md-3" style="display: flex; margin-top: -20px;">
+          <a href="#" style="margin-top: 10px; text-decoration-line: none; color: orange;">Войти</a>
+          <button style="margin-left: 30px; width: 200px; padding: 10px 20px; border: 2px solid orange; background-color: white;  border-radius: 30px;">
+              Регистрация
+          </button>
+      </div>
+    </div>
+  </nav>
+  <hr style="background-color: rgb(219, 217, 216);">
+  <div class="menu-bar" >
+    <ul>
+      <li><a href="MidtermProject.html">Главная</a>
+      
+        <li><a href="aktsia.html">Акции</a></li>
+        
+        <li><a href="grafik-raboty.html">График магазинов</a></li>
+        <li><a href="novinki.html">Новинки</a></li>
+        <li><a href="#">Распродажа</a></li>
+        <li><a href="shina.html">Шины</a></li>
+       
+        <li><a href="sravnit.html">Сравнить</a></li>
+        <li><a href="korzina.html">Корзина</a></li>
+    </ul>
+  </div>
+</div>
+<div class="page3"> 
+
+    <img src="main_wk1.png" alt="График магазинов в Technodom">
+    <div class="text "> 
+        <h1>График работы магазинов</h1>
+        <p>Изменения в работе магазинов Technodom - теперь мы работаем и в выходные дни.<br> Для доступа в
+            магазин нужно предъявить "зеленый" статус в приложении Ashyq.</p>
+            <p> Также вы всегда можете оформить покупку онлайн на сайте и в нашем мобильном приложении.<br>
+                Бесплатная доставка, более 60 000 товаров, скидки, рассрочка до 24 месяцев - все для отличного
+                настроения и приятных покупок.<br> Наши сотрудники соблюдают все санитарные нормы для вашей
+                безопасности.</p>
+                <p>Узнать, как будут работать магазины в вашем городе, вы можете с помощью сервиса ниже.</p>
+
+    </div>
+    <div class="Almaty">  <h1> Алматы</h1></div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Адрес магазинов</th>
+            <th scope="col"> График работы</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>ТЦ «Султан» мкр. Айнабулак-2, 84/4</td>
+            <td>10:00-21:00</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>ТРК «Апорт-Молл» ​Ташкентский тракт, 17к</td>
+            <td>10:00-22:00</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>ТК «Армада» ул. Кабдолова, 1/8</td>
+            <td>10:00-20:00</td>
+        </tr>  
+        <tr> 
+            <th scope="row">4</th>
+            <td>ТРЦ «MART» Алматы ул. Рихарда Зорге, 18/4</td>
+            <td>10:00-20:00</td> 
+         </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>ТРЦ «MOSKVA Metropolitan» 8 мкр., 37/1, Цокольный этаж</td>
+                <td>10:00-22:00</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>ТРЦ «Asia Park»
+                    пр. Райымбека, 514 (ул. Саина, 516)</td>
+                <td>10:00-22:00</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>ЖК «Дом на Абая»
+                    пр. Гагарина, 124</td>
+                <td>10:00-22:00</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>ТЦ «Colibri»
+                    ул. Валиханова, 170</td>
+                <td>10:00-22:00</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>ТРК «Mega Center Alma-Ata»
+                    ​ул. Розыбакиева, 247а</td>
+                <td>10:00-22:00</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>ТРЦ «MEGA Park»
+                    ул. Макатаева, 127/1</td>
+                <td>10:00-22:00</td>
+                
+              </tr>
+            
+        </tbody>
+      </table>
+
+   
+</div>
+
+</body>
+</html>

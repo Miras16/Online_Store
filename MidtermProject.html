@@ -1,0 +1,1040 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="midtermCss.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row" style="height: 30px; background-color: rgb(248, 240, 239);">
+      <div class="col-sm-0 col-md-4">
+        <p class="text-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+          <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>Almaty
+        </p>
+      </div>
+      <div class="col-sm-0 col-md-5" style="text-align: right;">
+        <p class="text-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg><small>Адреса магазинов</small></p>
+      </div>
+      <div class="col-sm-0 col-md-3" style="background-color: rgb(247, 114, 96); height: 30px;">
+        <p class="text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg><small>Горячая линия с 08:00 до 00:00 <b>1717</b></small> 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-default" style="height: 60px;">
+    <div class="container-fluid">
+      <div class="col-md-3" style="margin-top: -20px;">
+        <div class="navbar-header">
+        <img src="logoTehno.png" class="float-start" style="margin-left: 70px ;width: 250px; height: 100px;">
+        </div>
+      </div> 
+      <div class="col-md-6"style="margin-top: -20px;">
+        <p class="text-justify">
+          <div class="input-group" style="color: orange; display: flex; font-size: 30px;">
+          <div class="form-outline" >
+            <input type="search" id="form1" class="form-control" placeholder="Я хочу найти.." style=" margin-left: 60px;border: 2px solid orange; width:500px; padding: 15px 20px; font-size: 15px; border-top-left-radius: 30px; border-bottom-left-radius: 30px;" />
+          </div>
+          <button type="button" class="btn btn-primary" style="border: 0 solid orange ; padding: 10px 20px; font-size: 15px; background-color: orange; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+
+
+</svg>
+          </button>
+        </div>
+      </p>       
+      </div>
+      <div class="col-md-3" style="display: flex; margin-top: -20px;">
+          <button class="login" onclick="document.getElementById('id01').style.display='block'"
+           style="margin-top: 10px; background-color: white; border: none;
+          text-decoration-line: none; color: orange;">Войти</button>
+          <button  onclick="document.getElementById('id02').style.display='block'"
+           style="margin-left: 30px; 
+          width: 200px; padding: 10px 20px;
+           border: 2px solid orange; 
+           background-color: white;  
+           border-radius: 30px; ">
+             Регистрация 
+          </button>
+      </div>
+    </div>
+  </div>
+  <div id="id01" class="modal">
+  
+    <form class="modal-content animate" style="width:50%; border-radius: 20px;" action="/action_page.php" method="post">
+    
+      <h1 style="text-align: center; margin-top: 20px;">Форма входа</h1>
+      <div class="containerr">
+        <input class="input" type="text" placeholder="Номер телефона" name="uname" required>
+  
+        <input class="input" type="password" placeholder="Пароль" name="psw" required>
+          
+        <button class="submit1" type="submit" style="text-align:center; padding: 10px 40px;">Войти в аккаунт</button>
+        
+      </div>
+  
+      <div class="containerr" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Назад</button>
+        <span class="psw" style="margin-right: 20px;">Забыли <a href="#">пароль?</a></span>
+      </div>
+    </form>
+  </div>
+
+  <div id="id02" class="modal">
+  
+    <form class="modal-content animate" style="width:50%; border-radius: 20px;" action="/action_page.php" method="post">
+    
+      <h1 style="text-align: center; margin-top: 20px;">Новый пользователь</h1>
+      <div class="containerr2">
+        <input type="text" placeholder="Имя" name="email" id="email" required>
+    <input type="text" placeholder="Фамилия" name="email" id="email" required>
+    <input type="text" placeholder="Электронная почта" name="email" id="email" required>
+    <input type="text" placeholder="Номер телефона" name="email" id="email" required>
+    <input type="password" placeholder="Пароль" name="psw" id="psw" required>
+    <input type="password" placeholder="Повтарите пароль" name="psw-repeat" id="psw-repeat" required>
+          <button type="submit" class="registerbtn">Регистрация</button>
+
+      </div>
+
+
+  
+      <div class="containerr2" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Назад</button>
+        <p style="margin-top: 20px;">У вас есть аккаунт? <a href="#">Вход в аккаунт</a>.</p>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  var modal2 = document.getElementById('id02');
+
+
+// When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+          modal2.style.display = "none";
+      }
+  }
+  </script>
+  
+  <hr style="background-color: rgb(219, 217, 216);">
+  <div class="menu-bar" >
+    <ul>
+      <li><a href="#">Все категории <img src="chevron-compact-down.svg" alt=""></a>
+        <div class="sub-menu">
+          <ul>
+            <li class="hover-me"><a href="#">Смарфоны и гаджеты<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b> </big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Гаджеты</b> </big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Аксессуары для телефонов</b> </big></a></li>
+                  <li><a href="">Портативное аудио</a></li>
+                  <li><a href="">Внешние аккумуляторы</a></li>
+                  <li><a href="">Чехлы</a></li>
+                  <li><a href="">Защита экрана</a></li>
+                  <li><a href="">Карты памяти</a></li>
+                  <li><a href="">Зарядные устройство</a></li>
+                  <li><a href="">Кабели и адаптеры</a></li>
+                  <li><a href="">Мобильная оптика</a></li>
+                  <li><a href="">Подставки</a></li>
+                  <li><a href="">Стабилизаторы</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Ноутбуки и компьютеры<img src="chevron-compact-right.svg">
+              <div class="sub-sub-menu2">
+                <ul >
+                  <li><a href=""><big><b>Ноутбуки и Аксессуары</b></big></a></li>
+                  <li><a href="">Ноутбуки</a></li>
+                  <li><a href="">Игровые ноутбуки</a></li>
+                  <li><a href="">Apple MacBook</a></li>
+                  <li><a href="">Сумки</a></li>
+                  <li><a href="">Рюкзаки</a></li>
+                  <li><a href="">Чехлы для ноутбуков</a></li>
+                  <li><a href="">Подставки для ноутбуков</a></li>
+                  <li><a href="">Станции для видеокарт</a></li>
+                  <li><a href="">Кабели и адаптеры для ноутбука</a></li>
+                  <li><a href="">Зарядные устройство для ноутбука</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Комплектующие</b></big></a></li>
+                  <li><a href="">Процессоры</a></li>
+                  <li><a href="">Материнские платы</a></li>
+                  <li><a href="">Видеокарты</a></li>
+                  <li><a href="">Оперативная память</a></li>
+                  <li><a href="">Жесткие диски</a></li>
+                  <li><a href="">SSD диски</a></li>
+
+
+<li><a href="">Кулеры для процессооров</a></li>
+                  <li><a href="">Блоки питания</a></li>
+                  <li><a href="">Кейсы</a></li>
+                  <li><a href="">Кулеры для кейса</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Сетевое обородувание</b></big></a></li>
+                  <li><a href="">Сетевые кабели</a></li>
+                  <li><a href="">MESH системы</a></li>
+                  <li><a href="">Wi-fi роутеры</a></li>
+                  <li><a href="">Адаптеры PowerLine</a></li>
+                  <li><a href="">Адаптеры Wi-fi</a></li>
+                  <li><a href="">Коммутаторы</a></li>
+                  <li><a href="">Оборудование xDSL</a></li>
+                  <li><a href="">Роутеры с поддержкой MESH</a></li>
+                  <li><a href="">Сетевые Карты</a></li>
+                  <li><a href="">Мобильные модемы 4G/5G</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Все для геймеров<img src="chevron-compact-right.svg">
+              <div class="sub-sub-menu3">
+                <ul >
+                  <li><a href=""><big><b>PlayStation</b></big></a></li>
+                  <li><a href="">dualSense для PS5 - новые цвета</a></li>
+                  <li><a href="">PlayStation 4</a></li>
+                  <li><a href="">PlayStation 5</a></li>
+                  <li><a href="">Аксессуары PlayStation</a></li>
+                  <li><a href="">Игровые монипуляторы PlayStation</a></li>
+                  <li><a href="">Шлемы VR для PlayStation</a></li>
+                  <li><a href="">Игры PlayStation 4</a></li>
+                  <li><a href="">Игры PlayStation 5</a></li>
+                  <li><a href="">Карты платы PS store</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">ТВ, аудио и музыкальные инструменты<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu4">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+
+
+</ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Фототехника и квадрокоптеры<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu5">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Бытовая техника<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu6">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+
+
+<li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Техника для кухни<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu7">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+
+
+<li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Красота и здаровье<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu8">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Спорт, туризм, багаж<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu9">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+
+
+<li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Автотовары и транспорт<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu10">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Детские товары<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu11">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+
+
+<li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Товары для дома и сада<img src="chevron-compact-right.svg"></a>
+              <div class="sub-sub-menu12">
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+                <ul>
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смарт часы</a></li>
+                  <li><a href="">Apple Watch</a></li>
+                  <li><a href="">Фитнес браслеты</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарт часы Xiaomi</a></li>
+                  <li><a href="">Детские часы с GPS</a></li>
+                  <li><a href="">Экшн-камеры</a></li>
+                  <li><a href="">Очки с аудиосистемой</a></li>
+                  <li><a href="">Bleutooth-трекер</a></li>
+                  <li><a href="">3D ручки</a></li>
+                </ul>
+                <ul >
+                  <li><a href=""><big><b>Смортфоны и телефоны</b></big></a></li>
+                  <li><a href="">Смартфоны</a></li>
+                  <li><a href="">Смартфоны Apple</a></li>
+                  <li><a href="">Смартфоны Samsung</a></li>
+                  <li><a href="">Смартфоны Huawei</a></li>
+                  <li><a href="">Смарфоны Xiaomi</a></li>
+                  <li><a href="">Смарфоны Oppo</a></li>
+                  <li><a href="">Смарфоны Vivo</a></li>
+                  <li><a href="">Смартфоны Realme</a></li>
+                  <li><a href="">Мобильные телефоны</a></li>
+                  <li><a href="">Радиотедефоны DECT</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="aktsia.html">Акции</a></li>
+      <li><a href="grafik-raboty.html">График магазинов</a></li>
+      <li><a href="novinki.html">Новинки</a></li>
+      <li><a href="rasprodaja.html">Распродажа</a></li>
+      <li><a href="shina.html">Шины</a></li>
+      <!-- <li><a href="#">Избранное</a></li>
+      <li><a href="#">Купоны</a></li> -->
+      <li><a href="sravnit.html">Сравнить</a></li>
+      <li><a href="korzina.html">Корзина</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="col-md-1" >
+      <img src="Left.jpg" style="border-bottom-right-radius: 20px;border-top-right-radius: 20px; width:275px; height: 400px; margin-top: 50px;">
+    </div>
+    <div class="col-md-10">
+      <!-- Carousel -->
+
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="iphone-13pro-vs-13.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel.png" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel3.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next"  type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button> -->
+</div> 
+    </div> 
+    <div class="col-md-1">
+      <img src="Right.jpg" style="border-bottom-left-radius: 20px;border-top-left-radius: 20px; width:275px; height: 400px; margin-top: 50px; margin-left: -141px;">
+    </div>  
+</div>
+<div>
+<nav class="navbar navbar-expand-sm" style="margin-top: 100px; margin-left: 100px;">
+  <div class="categoria2">
+      <ul>
+        <li class="nav-item"><a href="#news-and-hits"><button class="new"><b>Хиты продаж и новинки</b></button></a></li>
+        <li class="nav-item"><a href="#now-sold"><button><b>Сейчас покупают</b></button></a></li>
+        <li class="nav-item"><a href="#new-categories"><button><b>Новые категории</b></button></a></li>
+        <li class="nav-item"><a href="#WinterCategories"><button><b>Зимний спорт</b></button></a></li>
+        <li class="nav-item"><a href="#Obogrevateli"><button><b>Обогреватели</b></button></a></li>
+        <li class="nav-item"><a href="#Shiny"><button><b>Зимние шины</b></button></a></li>
+      </ul>
+    </div>
+</nav>
+
+<div id="news-and-hits"style="padding:140px 50px; margin-top: -80px; text-align: center; margin-left: 80px;">
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="iphoneCard.webp" alt="Card image" style="width:100%">
+        <br>
+        <p><b> Apple iPhone 13 Pro, 128 ГБ, Небесно‑голубой</b></p>
+        <p>599 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="noutbuk_hp_Card.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Игравой Ноутбук HP Victus 16-E0010UR</b></p>
+        <p>439 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="AppleWatchCard.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Смарт Часы Apple Watch SE GPS 40mm gold</b></p>
+        <p>169 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="CardFen.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Игравой Ноутбук HP Victus 16-E0010UR</b></p>
+        <p>439 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Freeze.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Игравой Ноутбук HP Victus 16-E0010UR</b></p>
+        <p>439 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="CardGaz.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Игравой Ноутбук HP Victus 16-E0010UR</b></p>
+        <p>439 990KZT</p>
+      </div>
+    </div>
+
+    <h2 style="margin-left: 100px; margin-top: -80px;" ><b>Популярные</b></h2>
+
+    <div id="now-sold" style="padding:20px;margin-left: 110px;" >
+
+
+<div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="A32Card.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Смартфон Samsung Galaxy A32 128GB Black</b></p>
+        <p>129 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="lenovo-v14Card.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Ноутбук Lenovo V14 Athlon Gold 3150U</b></p>
+        <p>179 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Samsung43Card.webp" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Телевизор 43" Samsung UE43T5300AUXC</b></p>
+        <p>194 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Electrolux.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Электрическая варочная панель Electrolux EHF-</b></p>
+        <p>139 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="AvaCard.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Микроволновая печь Ava AVM-20W</b></p>
+        <p>23 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="LgCard.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Стиральная машина LG-2M5HS6W</b></p>
+        <p>174 990KZT</p>
+      </div>
+    </div>
+
+    <h2 style="margin-left: 100px;" ><b>Новые категории</b></h2>
+
+
+    <div id="new-categories"style="padding:100px 20px; margin-top: -80px;margin-left: 110px;">
+      
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="videocamera.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Видеорегистратор Xiaomi 70mai Dash Cam</b></p>
+        <p>18 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="compressor.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Автомобильный компрессор Goodyear Gy-50</b></p>
+
+        <p>25 390KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Lego.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Конструктор Lego Harry Potter</b></p>
+        <p>26 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="konki.jpeg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Bauer коньки хоккейные Supreme S25</b></p>
+        <p>439 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="konkiFila.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Fila коньки раздвежные J-one</b></p>
+        <p>19 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="CartWalk.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Детские прогулочная коляска Jianer</b></p>
+        <p>33 990KZT</p>
+      </div>
+    </div>
+
+    <h2 style="margin-left: 100px; margin-top: -60px;" ><b>Зимний спорт</b></h2>
+
+
+<div id="WinterCategories"style="padding:100px 20px; margin-top: -80px; margin-left: 110px;">
+      
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Alpina.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Alpina горнолыжные ботинки Xtrack70</b></p>
+        <p>79 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="kreplenie.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Burton Крипление для Сноубордов:</b></p>
+
+        <p>112 704KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Lego.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Хоккейные перчатки Bauer</b></p>
+        <p>37 890KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="konkiSR.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Bauer коньки хоккейные Supreme 3S SR</b></p>
+        <p>106 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="fizan.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Fizan палки горнолыжные Inspire</b></p>
+        <p>6 900KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Julbo.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>julbo шлем горнолыжный Leto</b></p>
+        <p>23 900KZT</p>
+      </div>
+    </div>
+
+    <h2 style="margin-left: 100px; margin-top: -80px;" ><b>Обогреватели</b></h2>
+
+    <div id="Obogrevateli" style="padding: 20px; margin-left:110px;">
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="ballu.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b> Конвектор Ballu BEC/SMT-1000, 1000Vt</b></p>
+        <p>17 700KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Ardesto.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Керамический обогреватель ardesto hcp-550rbrm </b></p>
+        <p>48 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Polaris.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Купить конвектор Polaris PCH 2043</b></p>
+        <p>32 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="resanta.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Заказывайте Масляный радиатор РЕСАНТА ОМПТ-12Н</b></p>
+        <p>31 390KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="AVAVt.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Тепловентилятор AVA AVT-200A.</b></p>
+        <p>5 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Bork.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Конвектор BORK R710 Gray</b></p>
+        <p>159 690KZT</p>
+      </div>
+    </div>
+
+    <h2 style="margin-left: 100px;" ><b>Зимние шины</b></h2>
+
+
+<div id="Shiny" style="padding: 20px; margin-left:110px;">
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="latitude.png" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Зимние шины Michelin Latitude Cross</b></p>
+        <p>88 600KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Nokian.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Легковые шины Nokian Hakkapeliitta LT3 </b></p>
+        <p>133 990KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Brina.png" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Зимние шины Viatti Brina V-521 (Брина)</b></p>
+        <p>32 350KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Blizzak.png" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Bridgestone Blizzak LM-005</b></p>
+        <p>26 500KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="RoadX.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Pимние шины RoadX RX Frost WH03 155/70 R13 75T</b></p>
+        <p>26 000KZT</p>
+      </div>
+
+      <div class="card" style="text-align: center; width:200px; height: 330px; padding: 30px; border-radius: 10px; ">
+        <img class="card-img-top" src="Matador_MP30.jpg" alt="Card image" style="width:100%">
+        <br>
+        <p><b>Купить шины Matador MP30 Sibir Ice2</b></p>
+        <p>30 300KZT</p>
+      </div>
+    </div>
+
+    <div class="reclama">
+      <div class="rec1">
+      <img src="Reclama1.webp" >
+      </div>
+      <div class="rec1">
+      <img src="reclama2.jpg" >
+      </div>
+      <div class="rec1">
+      <img src="Reclama3.jpg" >
+      </div>
+    </div>
+
+</div>
+    
+  
+
+
+</div>
+</body>
+</html>

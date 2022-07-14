@@ -1,0 +1,465 @@
+
+*::-webkit-scrollbar{
+    display: none;
+}
+.sub-menu ul{
+    width: 400px;
+    list-style: none;
+    display: none;
+}
+.sub-menu ul img{
+    float: right;
+}
+.menu-bar{
+    margin-top: -15px;
+    text-align: center;
+}
+.menu-bar ul{
+    list-style: none;
+    display: inline-flex;
+}
+.menu-bar ul li{
+    padding: 0 10px;
+    margin: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar ul li a:hover{
+    color: orange;
+}
+.sub-menu{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    height: 450px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    margin-left: -120px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    text-align: left;
+}
+.sub-sub-menu, .sub-sub-menu2,
+.sub-sub-menu3, .sub-sub-menu4,
+.sub-sub-menu5, .sub-sub-menu6,
+.sub-sub-menu7, .sub-sub-menu8,
+.sub-sub-menu9, .sub-sub-menu10,
+.sub-sub-menu11, .sub-sub-menu12{
+    display: none;
+}
+.sub-menu ul li:hover .sub-sub-menu{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 198px;
+    margin-top: -20px;
+}
+.sub-menu ul li:hover .sub-sub-menu ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu2{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 176px;
+    margin-top: -54px;
+}
+.sub-menu ul li:hover .sub-sub-menu2 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu3{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 226px;
+    margin-top: -88px;
+}
+.sub-menu ul li:hover .sub-sub-menu3 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu4{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -122px;
+}
+.sub-menu ul li:hover .sub-sub-menu4 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu5{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -156px;
+}
+.sub-menu ul li:hover .sub-sub-menu5 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu6{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -190px;
+}
+.sub-menu ul li:hover .sub-sub-menu6 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu7{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 222px;
+    margin-top: -224px;
+}
+.sub-menu ul li:hover .sub-sub-menu7 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.sub-menu ul li:hover .sub-sub-menu8{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 214px;
+    margin-top: -258px;
+}
+.sub-menu ul li:hover .sub-sub-menu8 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu9{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -292px;
+}
+.sub-menu ul li:hover .sub-sub-menu9 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu10{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 178px;
+    margin-top: -326px;
+}
+.sub-menu ul li:hover .sub-sub-menu10 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu11{
+    height: 470px;
+    width: 965px;
+
+
+display: inline-flex;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -360px;
+}
+.sub-menu ul li:hover .sub-sub-menu11 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}.sub-menu ul li:hover .sub-sub-menu12{
+    height: 470px;
+    width: 965px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -394px;
+}
+.sub-menu ul li:hover .sub-sub-menu12 ul{
+    margin-left: -30px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.main .carousel{
+    margin-left: 150px;
+    justify-content: center;
+    z-index: -1;
+    height: 400px;
+    width: 840px;
+}
+.carousel img{
+    border-radius: 20px;
+    height: 500px;
+    width: 940px;
+}
+.main{
+    display: inline-flex;
+}
+.categoria2{
+    display: inline-flex;
+    text-align: center;
+}
+.categoria2 ul{
+    display: inline-flex;
+    list-style: none;
+}
+.categoria2 ul li a{
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.categoria2 button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.categoria2 .new{
+    color: orange;
+}
+.categoria2 button:hover{
+    background-color: rgba(247, 233, 233, 0.897);
+    color: orangered;
+}
+.categoria2 .new{
+    border: 2px solid orange;
+}
+
+#news-and-hits, #now-sold, #new-categories, #WinterCategories, 
+#Obogrevateli, #Shiny{
+    margin-left: 50px;
+    display: inline-flex;
+}
+.card{
+    margin:10px 5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px black;
+}
+.reclama img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin:10px;
+}
+.reclama{
+    margin-top: 50px;
+    margin-left: 60px;
+    display: inline-flex;
+}
+.rec1:hover img{
+    transform: scale(1.2);    
+}
+.rec1 img{
+    transition: transform .5s ease;
+}
+.rec1 {
+    border-radius: 20px;    
+    overflow: hidden;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+    
+    /* Full-width input fields */
+    .input{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+  
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 10px 20px;
+      background-color: orange;
+      border-radius: 20px;
+      border: 2px solid orange;
+      color: white;
+      font-size: 20px;
+      opacity: 0.9;
+    }
+    .cancelbtn:hover{
+        opacity: 1;
+    }
+    
+    .containerr2 {
+        text-align: center;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 16px;
+    }
+    .containerr2 input{
+        margin-bottom: 20px;
+        margin-left: 220px;
+        width: 300px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+    }
+    
+    .submit1{
+      background-color: orange;
+      border-radius: 20px;
+      border: 2px solid orange;
+      color: white;
+      font-size: 20px;
+      padding: 10px 40px;
+        margin-left: 270px;
+    }
+    
+    .submit{
+        text-align: center;
+      background-color: orange;
+      border-radius: 20px;
+      border: 2px solid orange;
+      color: white;
+      font-size: 20px;
+      padding: 10px 40px;
+    }
+
+    .containerr{
+        border-radius: 20px;
+    }
+
+.containerr input{
+        margin-bottom: 20px;
+        margin-left: 180px;
+        width: 400px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+    }
+    
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      padding-top: 60px;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      width: 50%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: red;
+      cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+    
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+    }
+      
+    @keyframes animatezoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+    }
+    
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+         display: block;
+         float: none;
+      }
+      .cancelbtn {
+         width: 100%;
+      }
+    }
+
+    .registerbtn {
+        background-color: orange;
+        font-size: 20px;
+        border-radius: 20px;
+        color: white;
+        padding: 16px 20px;
+        margin-top: 30px;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+        opacity: 0.9;
+      }
+      
+      .registerbtn:hover {
+        opacity: 1;
+      }
+       @media(max-width: 300px) {
+    
+       }

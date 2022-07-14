@@ -1,0 +1,21 @@
+.categori img, svg{
+    margin-right: 5px;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+}
+.categori{
+    display: inline-flex;
+}
+.categori a{
+    justify-content: middle;
+    display: inline-flex;
+    text-decoration-line: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.categori button{
+    border-radius: 20px;
+    border: 2px solid orange;
+}

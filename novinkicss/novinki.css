@@ -1,0 +1,28 @@
+.foto{
+    position: relative;
+    left:84px;
+    top:0px;
+}
+.new{
+    border-radius:5px;
+    border:2px; 
+    background-color:aqua;
+    position: relative;
+    bottom:297px;
+    right:24px;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+}
+.telefon{
+    position: relative;
+    top: 31px;
+    left: 54px;
+}
+.telefon2{
+    position: relative;
+    top: 351px;
+    right: 1311px;
+}

@@ -1,0 +1,31 @@
+.login h1{
+    position: relative;
+    top: 31px;
+    left: 275px;
+    width: 919px;
+    text-align: center;
+}
+.login p{
+    position: relative;
+    top: 31px;
+    left: 275px;
+    width: 919px;
+    text-align: center;
+}
+.login button {
+    background-color: #FF4500;
+    border: none;
+    color: white;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 52px;
+    position: relative;
+    left: 645px;
+    top: 37px;
+    
+    }

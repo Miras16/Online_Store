@@ -1,0 +1,79 @@
+div{
+   max-height: 650px;
+ 
+}
+
+.sozder{
+    position: relative;
+    left:89px;
+    top:0px;
+   
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+    width: 721px;
+}
+.popular h3{
+    position: relative;
+    top: 21px;
+    left: 84px;
+}
+/* .kard{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+.kard{
+    margin:10px 5px;
+}
+.kard:hover{
+    box-shadow: 2px 2px 5px rgb(255, 142, 77);
+} */
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 428px;
+    width: 269px;
+    position: relative;
+    top: 55px;
+    left: 15px;
+    
+  }
+  .card p{
+      position: relative;
+      top:28px;
+      left:0px;
+      font-size:25px;
+      color:orange;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .baga p{
+    position: relative;
+    top: 26px;
+    left: 0px;
+    font-size: 15px;
+    color:black;
+  }
+ .qatareki{
+     padding: auto;
+     margin: 0px;
+     position: relative;
+     bottom: 1720px;
+     left:0px;
+
+ }
+ .qataruw{
+    position: relative;
+    bottom: 1720px;
+    left:0px;
+ 
+ }

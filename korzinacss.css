@@ -1,0 +1,29 @@
+.korzina {
+position: relative;
+top: 12px;
+    left: 18px;
+
+}
+.korzina p{
+ width:800px;
+}
+.ekeu{
+    position: relative;
+    top: 21px;
+    left: 5px;
+}
+.korzina h2{
+    position: relative;
+top: 12px;
+    left: 5px;
+}
+.smartphone h4{
+    position: relative;
+    top: 49px;
+    left: 23px;
+}
+.telefondar{
+    position: relative;
+    top: 56px;
+    left: 0px;
+}

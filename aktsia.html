@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="midtermCss.css">
+  <link rel="stylesheet" href="aktsiacss/style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav class="container-fluid">
+    <div class="row" style="@media screen(max-width:400px) {
+      color: white;
+    }
+    height: 30px; background-color: rgb(248, 240, 239);">
+      <div class="col-md-4" style="@media screen(max-width:400px) {
+        display:none;
+      }" >
+        <p class="text-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+          <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>Almaty
+        </p>
+      </div>
+      <div class="col-md-5 col-sm-1" style="@media screen(max-width:400px) {
+        display:none;
+      } text-align: right;">
+        <p class="text-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg><small>Адреса магазинов</small></p>
+      </div>
+      <div class="col-md-3 col-sm-1" style="background-color: rgb(247, 114, 96); height: 30px;">
+        <p class="text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg><small>Горячая линия с 08:00 до 00:00 <b>1717</b></small> 
+        </p>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-default" style="height: 60px;">
+    <div class="container-fluid">
+      <div class="col-md-3" style="margin-top: -20px;">
+        <div class="navbar-header">
+        <img src="logoTehno.png" class="float-start" style="margin-left: 70px ;width: 250px; height: 100px;">
+        </div>
+      </div> 
+      <div class="col-md-6"style="margin-top: -20px;">
+        <p class="text-justify">
+          <div class="input-group" style="color: orange; display: flex; font-size: 30px;">
+          <div class="form-outline" >
+            <input type="search" id="form1" class="form-control" placeholder="Я хочу найти.." style=" margin-left: 60px;border: 2px solid orange; width:500px;
+            @media screen(max-width:400px) {
+              #form{
+                display:none;
+              }
+            }
+            padding: 15px 20px; font-size: 15px; border-top-left-radius: 30px; border-bottom-left-radius: 30px;" />
+          </div>
+          <button type="button" class="btn btn-primary" style="border: 0 solid orange ; padding: 10px 20px; font-size: 15px; background-color: orange; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+        </div>
+      </p>       
+      </div>
+      <div class="col-md-3" style="display: flex; margin-top: -20px;">
+          <a href="#" style="margin-top: 10px; text-decoration-line: none; color: orange;">Войти</a>
+          <button style="margin-left: 30px; width: 200px; padding: 10px 20px; border: 2px solid orange; background-color: white;  border-radius: 30px;">
+              Регистрация
+          </button>
+      </div>
+    </div>
+  </nav>
+  <hr style="background-color: rgb(219, 217, 216);">
+  <div class="menu-bar" >
+    <ul>
+      <li><a href="MidtermProject.html">Главная</a>
+      
+        <li><a href="aktsia.html">Акции</a></li>
+        <li><a href="grafik-raboty.html">График магазинов</a></li>
+        <li><a href="novinki.html">Новинки</a></li>
+        <li><a href="rasprodaja.html">Распродажа</a></li>
+        <li><a href="shina.html">Шины</a></li>
+        <li><a href="sravnit.html">Сравнить</a></li>
+        <li><a href="korzina.html">Корзина</a></li>
+    </ul>
+  </div>
+  
+  <div class="page2"> 
+
+    
+      <div class="cards1">
+       
+
+        <img class="birinwi" src="head_desc_580.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Осенняя распродажа до -70%!</a>
+        <p> Встречаем осень со скидками! До 31 октября вас ждет феерия скидок до 70%...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+
+
+      <div class="cards2">
+       
+        <img class="birinwi" src="cashb580.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">ШОК: кэшбек до 30%</a>
+        <p> Друзья, спешим обрадовать вас крутой новостью. С 13 по 31 октября всем ...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+
+      <div class="cards3">
+       
+        <img class="birinwi" src="580gifft.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Подарки за покупки!</a>
+        <p> С 8 по 31 октября приобретайте товары в розничных магазинах Technodom свыше ...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+
+      <div class="cards4">
+       
+        <img class="birinwi" src="alfa-black-580_300.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Космическая рассрочка 0-0-34 с картой Alfa</a>
+        <p>  Улетная рассрочка с картой Alfa Black теперь до 34 месяцев: просто космос! ...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+
+      <div class="cards5">
+       
+        <img class="birinwi" src="kaskad580_300.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Выгоду выбираете - Вы!</a>
+        <p> Если покупать - то с выгодой! А лучше с большой: каскадные скидки до
+            70% ..</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+
+      <div class="cards6">
+       
+        <img class="birinwi" src="megarozygrysh-itog-580.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Итоги мегарозыгрыша к 19-летию Technodom</a>
+        <p> Поздравляем наших победителей мегарозыгрыша к 19-летию Technodom!...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+      
+      <div class="cards7">
+       
+        <img class="birinwi" src="ava-jelectro580.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Электроинструменты AVA - ваш выбор</a>
+        <p> Высокое качество, доступная цена и удобные решения для...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+        
+      <div class="cards8">
+       
+        <img class="birinwi" src="aek-eleclx-580.png" alt="Card image" height="158" width="307" > 
+
+        <a href="https://www.technodom.kz/sale" rel="noopener">Ручной отпариватель в подарок к технике</a>
+        <p> Время подарков к большим покупкам! Купите встраиваемую духовку, стирал...</p>
+        <div class="uznat"> 
+        <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+      </div>
+  </div>
+
+  <div class="cards9">
+       
+    <img class="birinwi" src="rowenta-mob.png" alt="Card image" height="158" width="307" > 
+
+    <a href="https://www.technodom.kz/sale" rel="noopener">Новинки для красоты Rowenta My Beauty Routine</a>
+    <p> Ухаживать за собой так просто с новинками от Rowenta! Очищайте...</p>
+    <div class="uznat"> 
+    <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+  </div>
+  <div class="cards10">
+       
+    <img class="birinwi" src="lifestyle-1.png" alt="Card image" height="158" width="307" > 
+
+    <a href="https://www.technodom.kz/sale" rel="noopener">Присоединяйтесь к LifeStyle TV Fest</a>
+    <p> 
+        Присоединяйтесь к LifeStyle TV Fest и покупайте интерьерные телевизоры от...</p>
+    <div class="uznat"> 
+    <a href="https://www.technodom.kz/sale" rel="noopener">Узнать больше</a> </div>
+  </div>
+    
+
+ 
+
+    
+  
+
+
+</div>
+</body>
+</html>

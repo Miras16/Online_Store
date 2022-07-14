@@ -1,0 +1,48 @@
+.page3 img{
+    position: relative;
+left:84px;
+top:0px;
+bottom:0px;
+}
+.text{
+    position: relative;
+    left:89px;
+    top:0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* .iksweb{
+    position: relative;
+    left:0px;
+} */
+table.table-striped{
+	width: 78%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+    position: relative;
+    left: 149px;
+    margin: 35px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+table.table-striped,table.table-striped td, table.table-striped th {
+	border: 1px solid #595959;
+}
+table.table-striped td,table.table-striped th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.table-striped th {
+	
+	color: rgb(0, 0, 0); 
+	font-weight: normal;
+}
+.Almaty h1{
+    position: relative;
+    left: 700px;
+    top:0px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
